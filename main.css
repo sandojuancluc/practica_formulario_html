@@ -1,0 +1,149 @@
+/* Diseño global de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Fondo general claro */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #d63447; /* Rojo pizzería */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+nav {
+    background-color: #2b2e4a; /* Menú de navegación oscuro */
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d63447; /* Efecto hover */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #d63447;
+}
+
+.section-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 15px;
+    width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card .price {
+    font-weight: bold;
+    color: #2b2e4a;
+}
+
+.card button {
+    background-color: #d63447;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.card button:hover {
+    background-color: #ad3037;
+}
+
+/* Estilo de la sección de contacto */
+.contact {
+    background-color: #2b2e4a;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form input, .contact form textarea {
+    width: 70%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact form input[type="submit"] {
+    background-color: #d63447;
+    color: white;
+    cursor: pointer;
+}
+
+.contact form input[type="submit"]:hover {
+    background-color: #ad3037;
+}
+
+/* Pie de página */
+footer {
+    background-color: #2b2e4a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
